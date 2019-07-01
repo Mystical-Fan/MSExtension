@@ -1,0 +1,16 @@
+PODS:
+  - MSExtension (0.1.0)
+
+DEPENDENCIES:
+  - MSExtension (from `../`)
+
+EXTERNAL SOURCES:
+  MSExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSExtension: 719b66c913b4b1c6c74286401e576f67ae3a3e75
+
+PODFILE CHECKSUM: 64ae5a4a400d33ee4c9932aa2e8ad92ee406a6bd
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,6 @@
+framework module MSExtension {
+  umbrella header "MSExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

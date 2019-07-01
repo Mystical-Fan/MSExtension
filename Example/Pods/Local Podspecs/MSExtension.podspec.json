@@ -1,0 +1,22 @@
+{
+  "name": "MSExtension",
+  "version": "0.1.0",
+  "summary": "A short description of MSExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanfan-li@outlook.com/MSExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfan-li@outlook.com": "919016308@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfan-li@outlook.com/MSExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSExtension/Classes/**/*"
+}
