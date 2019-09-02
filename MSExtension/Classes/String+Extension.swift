@@ -25,4 +25,18 @@ public extension String {
         }
     }
     
+    // MARK - 密码格式判断
+    var isPassword: Bool {
+        get {
+            let mobileReg = "(^(?![0-9]+$)(?![a-zA-Z]+$)[a-zA-Z0-9]{6,18}$)"
+            /// 正则规则
+            let regex = try? NSRegularExpression(pattern: mobileReg, options: [])
+            /// 进行正则匹配
+            if let results = regex?.matches(in: self as String, options: [], range: NSRange(location: 0, length: self.count)), results.count != 0 {
+                return true
+            }
+            return false
+        }
+    }
+    
 }

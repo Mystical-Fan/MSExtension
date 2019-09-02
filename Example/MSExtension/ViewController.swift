@@ -13,13 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let phone:String = "13888888888"
-        print(phone.isPhoneNum)
-        let phone1:String = "13888"
-        print(phone1.isPhoneNum)
-        
-        let phone2:String = "11111111111"
-        print(phone2.isPhoneNum)
+        let phone:String = "13rdef"
+        print(phone.isPassword)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
